@@ -1,12 +1,9 @@
-local lsp_installer = require 'nvim-lsp-installer'
+local installer = require('nvim-lsp-installer')
 
-local servers = {
-  'sumneko_lua',
-  'clangd',
-}
+local servers = require('lsp/servers')
 
 for _, name in pairs(servers) do
-  local found, server = lsp_installer.get_server(name)
+  local found, server = installer.get_server(name)
   if found then
     if not server:is_installed() then
       print("Installing " .. name)
@@ -14,4 +11,3 @@ for _, name in pairs(servers) do
     end
   end
 end
-

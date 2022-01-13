@@ -37,10 +37,10 @@ vim.g.maplocalleader=" "
 
 lua require('plugins')
 lua require('plugin-config/nvim-tree')
-lua require('lsp/setup')
 lua require('lsp/nvim-cmp')
+lua require('lsp/setup')
 lua require('keybindings')
-lua require('lspconfig').clangd.setup{}
 
 set background=dark
 colorscheme nord
+

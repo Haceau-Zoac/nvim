@@ -94,16 +94,6 @@ _G.packer_plugins = {
     path = "C:\\Users\\Haceau\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-vsnip",
     url = "https://github.com/hrsh7th/cmp-vsnip"
   },
-  ["copilot.vim"] = {
-    loaded = true,
-    path = "C:\\Users\\Haceau\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\copilot.vim",
-    url = "https://github.com/github/copilot.vim"
-  },
-  ["friendly-shippets"] = {
-    loaded = true,
-    path = "C:\\Users\\Haceau\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\friendly-shippets",
-    url = "https://github.com/rafamadriz/friendly-shippets"
-  },
   ["lsp-colors.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Haceau\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lsp-colors.nvim",
@@ -114,6 +104,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Haceau\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lspkind-nvim",
     url = "https://github.com/onsails/lspkind-nvim"
   },
+  ["neovim-cmake"] = {
+    loaded = true,
+    path = "C:\\Users\\Haceau\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\neovim-cmake",
+    url = "https://github.com/Shatur/neovim-cmake"
+  },
   ["nord.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Haceau\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nord.nvim",
@@ -123,6 +118,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Haceau\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
+  },
+  ["nvim-dap"] = {
+    loaded = true,
+    path = "C:\\Users\\Haceau\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-dap",
+    url = "https://github.com/mfussenegger/nvim-dap"
   },
   ["nvim-lsp-installer"] = {
     loaded = true,
@@ -148,6 +148,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Haceau\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
+  },
+  ["plenary.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Haceau\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\plenary.nvim",
+    url = "https://github.com/nvim-lua/plenary.nvim"
   },
   ["vim-vsnip"] = {
     loaded = true,

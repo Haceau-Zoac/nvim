@@ -26,4 +26,8 @@ return require('packer').startup(function()
   use 'onsails/lspkind-nvim'
   -- lsp-colors
   use 'folke/lsp-colors.nvim'
+  -- neovim-cmake
+  use 'nvim-lua/plenary.nvim'
+  use 'mfussenegger/nvim-dap'
+  use 'Shatur/neovim-cmake'
 end)
