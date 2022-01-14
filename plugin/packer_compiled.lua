@@ -104,6 +104,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Haceau\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lspkind-nvim",
     url = "https://github.com/onsails/lspkind-nvim"
   },
+  ["markdown-preview.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Haceau\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\markdown-preview.nvim",
+    url = "https://github.com/iamcco/markdown-preview.nvim"
+  },
   ["neovim-cmake"] = {
     loaded = true,
     path = "C:\\Users\\Haceau\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\neovim-cmake",
@@ -153,6 +158,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Haceau\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
+  },
+  ["vim-commentary"] = {
+    loaded = true,
+    path = "C:\\Users\\Haceau\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-commentary",
+    url = "https://github.com/tpope/vim-commentary"
   },
   ["vim-vsnip"] = {
     loaded = true,

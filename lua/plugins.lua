@@ -30,4 +30,8 @@ return require('packer').startup(function()
   use 'nvim-lua/plenary.nvim'
   use 'mfussenegger/nvim-dap'
   use 'Shatur/neovim-cmake'
+  -- markdown-preview.nvim
+  use 'iamcco/markdown-preview.nvim'
+  -- vim-commentary
+  use 'tpope/vim-commentary'
 end)
