@@ -19,9 +19,9 @@ return require('packer').startup(function()
   use 'hrsh7th/cmp-path'
   use 'hrsh7th/cmp-cmdline'
   use 'hrsh7th/nvim-cmp'
-  -- vsnip
-  use 'hrsh7th/cmp-vsnip'
-  use 'hrsh7th/vim-vsnip'
+  -- LuaSnip 
+  use 'L3MON4D3/LuaSnip'
+  use 'saadparwaiz1/cmp_luasnip'
   -- lspkind
   use 'onsails/lspkind-nvim'
   -- lsp-colors
@@ -34,4 +34,9 @@ return require('packer').startup(function()
   use 'iamcco/markdown-preview.nvim'
   -- vim-commentary
   use 'tpope/vim-commentary'
+  -- treesitter
+  use {
+    'nvim-treesitter/nvim-treesitter',
+    run = ':TSUpdate'
+  }
 end)

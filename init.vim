@@ -37,6 +37,8 @@ vim.g.maplocalleader=" "
 
 lua require('plugins')
 lua require('plugin-config/nvim-tree')
+lua require('plugin-config/luasnip')
+lua require('plugin-config/nvim-treesitter')
 lua require('lsp/nvim-cmp')
 lua require('lsp/setup')
 lua require('keybindings')

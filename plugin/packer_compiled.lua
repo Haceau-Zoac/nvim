@@ -69,6 +69,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  LuaSnip = {
+    loaded = true,
+    path = "C:\\Users\\Haceau\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\LuaSnip",
+    url = "https://github.com/L3MON4D3/LuaSnip"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "C:\\Users\\Haceau\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-buffer",
@@ -89,10 +94,10 @@ _G.packer_plugins = {
     path = "C:\\Users\\Haceau\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-path",
     url = "https://github.com/hrsh7th/cmp-path"
   },
-  ["cmp-vsnip"] = {
+  cmp_luasnip = {
     loaded = true,
-    path = "C:\\Users\\Haceau\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-vsnip",
-    url = "https://github.com/hrsh7th/cmp-vsnip"
+    path = "C:\\Users\\Haceau\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp_luasnip",
+    url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
   ["lsp-colors.nvim"] = {
     loaded = true,
@@ -144,6 +149,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Haceau\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-tree.lua",
     url = "https://github.com/kyazdani42/nvim-tree.lua"
   },
+  ["nvim-treesitter"] = {
+    loaded = true,
+    path = "C:\\Users\\Haceau\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-treesitter",
+    url = "https://github.com/nvim-treesitter/nvim-treesitter"
+  },
   ["nvim-web-devicons"] = {
     loaded = true,
     path = "C:\\Users\\Haceau\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-web-devicons",
@@ -163,11 +173,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Haceau\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-commentary",
     url = "https://github.com/tpope/vim-commentary"
-  },
-  ["vim-vsnip"] = {
-    loaded = true,
-    path = "C:\\Users\\Haceau\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-vsnip",
-    url = "https://github.com/hrsh7th/vim-vsnip"
   }
 }
 
