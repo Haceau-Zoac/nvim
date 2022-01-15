@@ -18,6 +18,10 @@ require 'nvim-treesitter.configs'.setup {
   },
 }
 
+require('nvim-treesitter.install').command_extra_args = {
+  curl = { "--proxy", "socks5://172.25.32.1:10808" },
+}
+
 vim.wo.foldmethod = 'expr'
 vim.wo.foldexpr = 'nvim_treesitter#foldexpr()'
 

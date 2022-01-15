@@ -1,8 +1,6 @@
 return require('packer').startup(function()
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
-  -- scheme
-  use 'shaunsingh/nord.nvim'
   -- nvim-tree
   use {
     'kyazdani42/nvim-tree.lua',
