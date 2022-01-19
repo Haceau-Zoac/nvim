@@ -13,7 +13,20 @@ cmp.setup {
     { name = 'buffer' },
   }),
 
-  mapping = require'keybindings'.cmp(cmp),
+  mapping = {
+    ['<C-b>'] = cmp.mapping(cmp.mapping.scroll_docs(-4), { 'i', 'c' }),
+    ['<C-f>'] = cmp.mapping(cmp.mapping.scroll_docs(4), { 'i', 'c' }),
+    ['<A-.>'] = cmp.mapping(cmp.mapping.complete(), { 'i', 'c' }),
+    ['<C-y>'] = cmp.config.disable,
+    ['<A-,>'] = cmp.mapping({
+      i = cmp.mapping.abort(),
+      c = cmp.mapping.close(),
+    }),
+    ['<CR>'] = cmp.mapping.confirm({
+      select = true,
+      behavior = cmp.ConfirmBehavior.Replace
+    }),
+  }
 }
 
 -- Use buffer source for `/`.
@@ -35,10 +48,4 @@ cmp.setup.cmdline(':', {
 local capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())
 
 local config = require('lspconfig')
-
-for _, server in pairs(require('lsp/servers')) do
-  config[server].setup {
-    capabilities = capabilities
-  }
-end
 

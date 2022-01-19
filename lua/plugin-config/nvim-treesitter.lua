@@ -1,5 +1,5 @@
 require 'nvim-treesitter.configs'.setup {
-  ensure_installed = { "c", "cpp", "vim", "lua"  },
+  ensure_installed = { "c", "cpp", "vim", "lua", "json", "yaml"  },
   highlight = {
     enable = true,
     additional_vim_regex_highlighting = false,
@@ -16,10 +16,6 @@ require 'nvim-treesitter.configs'.setup {
   indent = {
     enable = true,
   },
-}
-
-require('nvim-treesitter.install').command_extra_args = {
-  curl = { "--proxy", "socks5://172.25.32.1:10808" },
 }
 
 vim.wo.foldmethod = 'expr'

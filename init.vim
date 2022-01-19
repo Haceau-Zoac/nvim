@@ -40,3 +40,8 @@ lua require('lsp/nvim-cmp')
 lua require('lsp/setup')
 lua require('keybindings')
 
+autocmd BufRead,BufNewFile *.mpp set filetype=mpp
+autocmd BufRead,BufNewFile *.ixx set filetype=ixx
+
+colorscheme tokyonight
+
